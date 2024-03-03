@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 2rem;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.task {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+.container{
+    margin: 1rem;
+    padding: 0;
+    border: 1px grey;
+    border-radius: 5px;
+}
+
+.return-button {
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.return-button:hover {
+    color: #333;
+}
